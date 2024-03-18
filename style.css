@@ -1,0 +1,117 @@
+body{
+    background-image: image-set("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+}
+
+h1 { 
+	color: rgb(69, 227, 255); 
+	margin-bottom: -5px; 
+} 
+p { 
+	margin-bottom: -10px; 
+} 
+.ui { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+} 
+.row { 
+	display: flex; 
+} 
+.cell { 
+	border: none; 
+	width: 80px; 
+	height: 80px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-size: 24px; 
+	text-align: center; 
+	cursor: pointer; 
+} 
+.cell:active { 
+	outline: none; 
+} 
+/* 3*3 Grid */
+#b1{ 
+	border-bottom: 1px solid rgb(247, 152, 152); 
+	border-right: 1px solid rgb(247, 140, 140); 
+} 
+
+#b2 { 
+	border-bottom: 1px solid rgb(245, 136, 136); 
+	border-right: 1px solid rgb(247, 143, 143); 
+	border-left: 1px solid rgb(250, 130, 130); 
+} 
+
+#b3 { 
+	border-bottom: 1px solid rgb(245, 125, 125); 
+	border-left: 1px solid rgb(241, 121, 121); 
+} 
+
+#b4 { 
+	border-top: 1px solid rgb(248, 109, 109); 
+	border-bottom: 1px solid rgb(248, 91, 91); 
+	border-right: 1px solid rgb(248, 98, 98); 
+} 
+	
+#b5 { 
+	border: 1px solid rgb(255, 175, 175); 
+} 
+
+#b6 { 
+	border-top: 1px solid rgb(247, 114, 114); 
+	border-bottom: 1px solid rgb(253, 116, 116); 
+	border-left: 1px solid rgb(252, 106, 106); 
+} 
+
+#b7 { 
+	border-top: 1px solid rgb(245, 103, 103); 
+	border-right: 1px solid rgb(247, 91, 91); 
+} 
+
+#b8 { 
+	border-top: 1px solid rgb(227, 252, 10); 
+	border-right: 1px solid rgb(205, 248, 12); 
+	border-left: 1px solid rgb(211, 247, 7); 
+} 
+
+#b9 { 
+	border-top: 1px solid rgb(209, 250, 28); 
+	border-left: 1px solid rgb(184, 247, 12); 
+} 
+/* Reset Button */
+#but { 
+	box-sizing: border-box; 
+	width: 95px; 
+	height: 40px; 
+	border: 1px solid dodgerblue; 
+	margin-left: auto; 
+	border-radius: 8px; 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+
+	background-color: whitesmoke; 
+	color: dodgerblue; 
+	font-size: 20px; 
+	cursor: pointer; 
+} 
+
+/* Player turn space */
+#print { 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+	color: dodgerblue; 
+	font-size: 20px; 
+} 
+
+/* Main Container */
+#main { 
+	text-align: center; 
+} 
+
+/* Game Instruction Text */
+#ins { 
+	font-family: Verdana,Geneva, 
+					Tahoma, sans-serif; 
+	color: rgb(237, 238, 224); 
+}
